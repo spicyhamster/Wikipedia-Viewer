@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" />
+  <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" />
+  <title>CodePen - Wikipedia Viewer - FCC</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <img src="/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png" id="logo">
+      <h1>Wikipedia Viewer</h1>
+
+      <h4>Ever wanted to search Wikipedia without actually going there?</h4>           <h3>No?</h3>
+      <h4>Well here it is anyway!</h4>  </header>
+    <div class="main">
+      <p id="random"><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Click here for a random article</a></p>
+  <div id="search">
+    <i class="fa fas fa-search fa-5x" id="icon"></i>
+  </div>
+  <div id="searchBar">
+    <!--<i class="fa fa-angle-left fa-lg" id="back">   </i>   -->
+     <input type="text" name="wikiSearch" placeholder="Search Wikipedia" id="searchTerm">
+     <button class="btn btn-default" id="searchButton">Search</button>
+   </div>
+   <p id="inst">Click icon to search</p>
+   <ul id="results">
+
+   </ul>
+  </div>
+</div>
+</body>
+</html>

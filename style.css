@@ -1,0 +1,69 @@
+body {
+  background-color: #f9f9f9;
+}
+
+.main {
+  text-align: center;
+  padding: 10% 0;
+  font-family: "Times New Roman";
+
+}
+
+#logo {
+  width: 150px;
+  margin-top: 40px;
+}
+
+#inst {
+  margin-top: 16px;
+}
+
+#searchBar {
+  margin: 16px;
+  display: none;
+}
+
+header {
+  text-align: center;
+  font-family: "Times New Roman";
+
+}
+
+#random {
+  font-size: 25px;
+}
+
+#inst {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: "Times New Roman";
+}
+
+entry {
+  border: 1px, solid, #000;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+li {
+    background-color: #cedff2;
+;
+}
+
+li a{
+  font-size: 26px;
+  font-weight: bold;
+}
+
+li p{
+  font-size: 18px;
+}
